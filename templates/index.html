@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Spot Finder</title>
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+           <li><a href="/login">Login</a></li>
+            <li><a href="/reg">Signup</a></li>
+            <li><a href="{{  url_for('static', filename='about.html') }}">About Us</a></li>
+            <li><a href="{{  url_for('static', filename='contact.html') }}">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to Parking Spot Finder</h1>
+
+    <p>This website uses AI and OpenCV to find available parking spots in real-time. Whether you're looking for parking in a crowded city or at a busy event, we've got you covered. Sign up or login to get started!</p>
+
+</body>
+</html>
