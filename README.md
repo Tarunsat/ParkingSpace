@@ -19,7 +19,7 @@ To run the ParkingSpace website locally, make sure you have the following depend
 
 1. Start the Flask development server:
 2. Open a web browser and visit the following URL: http://localhost:5000/
-3. 
+   
 3. Upload an image of the parking lot using the provided interface.
 
 4. Click on the "Detect Spaces" button to initiate the parking space detection process.
